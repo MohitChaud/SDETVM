@@ -1,0 +1,54 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-30T07:35:15.250Z",
+        "line": 3,
+        "name": "Sample product",
+        "description": "",
+        "id": "sample;sample-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7474257400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "application is opened",
+            "match": {
+              "location": "DefineSteps.application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user brought mobile for 40",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40",
+                  "offset": 24
+                }
+              ],
+              "location": "DefineSteps.user_brought_mobile_for(Integer)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Sample",
+    "description": "",
+    "id": "sample",
+    "keyword": "Feature",
+    "uri": "file:Feat/demo.feature",
+    "tags": []
+  }
+]
